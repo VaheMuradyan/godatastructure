@@ -1,4 +1,4 @@
-package main
+package maps
 
 func AreDisjoint(arr1, arr2 []int) bool {
 	set1 := make(map[int]struct{})

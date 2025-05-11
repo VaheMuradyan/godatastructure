@@ -1,4 +1,4 @@
-package main
+package maps
 
 func FindAnagramsEfficient(array1, array2 []string) []string {
 	sortedWordsInArray2 := make(map[string]bool)
